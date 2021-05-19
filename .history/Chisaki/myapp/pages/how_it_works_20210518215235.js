@@ -14,7 +14,7 @@ export default function HowTo() {
         <TopBar />
         <J_Head
         title="Welcome to RATHERAPHY"
-        subhead={<div className={styles.clickinstBox}><p>Check out the summary of different section</p><img src="/icons/icon.png" className={styles.clickbtn}/></div>}
+        subhead={<div className={styles.clickinstBox}><p>Check out the summary of different section</p><img src="icons/icon.png" className={styles.clickbtn}/></div>}
         />
         <HowToUI 
         title="MENTAL TEST"

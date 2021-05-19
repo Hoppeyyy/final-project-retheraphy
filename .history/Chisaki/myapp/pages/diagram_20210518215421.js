@@ -143,7 +143,7 @@ export default function Diagram() {
        title="SEE SUGGESTION"
        subtext=""
        routeTo="/suggestions"
-      
+       bgcolor="#52A1C3"
        />
       </div>
       </div>
