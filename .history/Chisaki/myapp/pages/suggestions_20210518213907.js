@@ -9,7 +9,7 @@ export default function Suggestions() {
     return (
           <div className={styles.base}>
             <TopBar/>
-          <J_Head 
+          <J_head 
           title="Suggestions" 
           subhead="The way to treat the mental illness issues"/>
           <Wig/><br></br>

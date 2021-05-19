@@ -12,9 +12,9 @@ import React, {useEffect, useState} from 'react';
 export default function Result() {
   const router = useRouter();
 
-  const [response1, setResponse1] = useState("");
-  const [response2, setResponse2] = useState("");
-  const [response3, setResponse3] = useState("");
+  const [response1, setResponse1] = useState(null);
+  const [response2, setResponse2] = useState(null);
+  const [response3, setResponse3] = useState(null);
  
 
   useEffect(()=>{

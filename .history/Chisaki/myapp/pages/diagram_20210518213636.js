@@ -67,7 +67,7 @@ export default function Diagram() {
     return (
       <div className={styles.base}>
       <TopBar />
-      <J_Head
+      <J_head
       title="Physical Diagram"
       subhead="Mental health effects occur on different body parts"
       />
