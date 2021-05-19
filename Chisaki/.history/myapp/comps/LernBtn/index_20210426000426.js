@@ -1,0 +1,40 @@
+import styles from '../../styles/Home.module.css'
+import React from 'react'
+import styled from 'styled-components';
+
+const CardCont = styled.div`
+background:#52A1C3;
+width:110px;
+height:70px;
+border-radius:10px;
+display:flex;
+flex-direction:column;
+text-align:center;
+justify-content:center;
+color:#FFFFFF;
+margin:10px;
+font-family: 'Roboto', sans-serif;
+`;
+  
+const Heading = styled.h4`
+margin:0px;
+margin-bottom:5px;
+margin-top:5px;
+color:#FFFFFF;
+`;
+
+
+const LearnBtnUI = ({
+bgcolor='#DADADA',
+heading="Very much so",
+
+
+}) => {
+
+  return <CardCont onClick={onClick} bgcolor={bgcolor}>
+    <Heading>{heading}</Heading>
+  </CardCont>
+}
+
+
+export default LearnBtnUI;

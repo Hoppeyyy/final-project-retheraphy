@@ -1,0 +1,28 @@
+import styles from '../../styles/Home.module.css'
+import styled from 'styled-components';
+
+
+const contentStyle = styled.div`
+color:#52A1C3;
+font-family:'Roboto, sans-serif';
+text-align:left;
+text-indent:20px;
+font-size:18px;
+width:375px;
+`;
+  
+const pStyle = styled.p`
+margin:5px;
+`;
+
+const IntroContUI = ({
+content=""
+}) => {
+ 
+  return <contentStyle>
+  <pStyle>{content}</pStyle>
+  </contentStyle>
+}
+
+
+export default IntroContUI;

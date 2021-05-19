@@ -1,0 +1,17 @@
+import BigButton from '../BigButton'
+import styles from '../../styles/Home.module.css'
+import React from 'react'
+import styled from 'styled-components';
+
+function AnswerUI (){
+  return(
+    <div className={styles.answerbox}>
+    <BigButton />
+    <BigButton />
+    <BigButton />
+    <BigButton />
+    </div>
+  )
+}
+
+export default AnswerUI;

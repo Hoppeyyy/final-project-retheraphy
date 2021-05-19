@@ -1,0 +1,141 @@
+
+.base{
+width:377px;
+height:667px;
+}
+.main_container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.span{
+color: #EF9595;
+}
+.container{
+  width:377px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+
+
+}
+
+.answerbox{
+  width:377px;
+  background-color:#FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.buttonBox{
+  display: flex;
+  justify-content: center;
+  width:375px;
+}
+/*Joyce*/
+.topBar{
+  /*padding:5px;*/ 
+  background-color:#82DED9;
+  width:375px;
+  height:60px;
+}
+/*Joyce*/
+.dots_container{
+  display: flex;
+  justify-content: center;
+  width:375px;
+
+}
+.number_container{
+  display: flex;
+  justify-content: center;
+  width:375px;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  width:375px;
+  height:50px;
+}
+.contentBox
+{
+  display: flex;
+  flex-direction: column;
+  width:377px;
+}
+.suggestButton{
+  display:flex;
+  justify-content: center;
+}
+.learn_imgbutton{
+  display:flex;
+  align-items: center;
+}
+.HomeBox{
+  display: flex;
+  justify-content: center;
+  width:375px;
+  position:absolute;
+  top:320px;
+}
+.psnotebox{
+  margin-top:40px;
+}
+.termsrow{
+  width:377px;
+  display:flex;
+  flex-direction:row;
+}
+.learnMoreBtn{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+
+}
+
+.highlight{
+  color:#52A1C3;
+}
+.clickinstBox{
+  display:flex;
+}
+.clickbtn{
+height:50px;
+width:50px;
+}
+
+.hover:hover{
+  color:#EF9595;
+}
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .slider{
+    overflow: hidden;
+    -webkit-appearance: none;
+  }
+   
+  .slider::-webkit-slider-thumb {
+    box-shadow: -80px 0 0 80px #82DED9;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius:20px;
+    background: #FFFFFF;
+    cursor: pointer;
+    
+  }
+
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius:20px;
+  background: #FFFFFF;
+  cursor: pointer;
+  margin-top:-8px;
+}

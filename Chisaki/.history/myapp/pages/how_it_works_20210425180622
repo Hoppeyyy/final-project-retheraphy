@@ -1,0 +1,29 @@
+
+export default function Terms() {
+    return (
+      <div className={styles.base}>
+        <TopBar />
+        <J_Head
+        title="Before the test"
+        subhead="Terms of reference" 
+        />
+        <BorderUI/>
+        <br></br>
+        <br></br>
+        <div className={styles.buttonBox}>
+        <ButtonUI
+        title="BACK"
+        subtext=""
+        routeTo="/how_it_works"
+        bgcolor="#52A1C3"
+        />
+        <ButtonUI
+        title="AGREE"
+        subtext=""
+        routeTo="/instruction"
+        bgcolor="#52A1C3"
+        />
+        </div>
+      </div>
+    )
+  }

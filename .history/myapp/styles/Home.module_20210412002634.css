@@ -1,0 +1,29 @@
+.answerbox{
+  width:375px;
+  background-color:#FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.questionbox {
+  width:375px;
+
+  background-color:#82DED9;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  color:#FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+.buttonBox{
+  display: flex;
+  justify-content: center;
+  width:375px;
+}
+
+.dots_container{
+  display: flex;
+  justify-items: center;
+  
+}

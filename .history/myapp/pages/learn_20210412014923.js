@@ -1,0 +1,27 @@
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+import HeadingUI from '../comps/Heading'
+import ContentUI from '../comps/Content'
+import ImgBoxUI from '../comps/ImgBox'
+
+
+
+
+export default function Learn() {
+  return (
+    <div className={styles.container}>
+      <div className={styles.heading}>
+    <HeadingUI />
+    </div>
+    <div className={styles.contentBox}>
+    <ContentUI />
+    <ContentUI />
+    <ContentUI />
+    </div>
+    <div className={styles.}>
+      <ImgBoxUI />
+    </div>
+    </div>
+
+  )
+}

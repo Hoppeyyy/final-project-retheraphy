@@ -1,0 +1,38 @@
+import styles from '../../styles/Home.module.css';
+import React from 'react';
+import styled from 'styled-components';
+
+const Cont = styled.div`
+width:377px;
+`;
+const Title = styled.h2`
+color: #52A1C3;
+font-family:Roboto, sans-serif;
+text-align: left;
+margin-bottom:0;
+margin-left:20px;
+  
+`;
+
+const Subhead =styled.div`
+  color: #52A1C3;
+  font-family:Roboto, sans-serif;
+  margin-bottom:20px;
+  margin-top:5px;
+  margin-left:20px;
+  font-size:16px;
+`;
+
+const J_Head =({
+  title="",
+  subhead="",
+})=> {
+    return (
+    <Cont>
+      <Title>{title}</Title>
+      <Subhead>{subhead}</Subhead>
+    </Cont>   
+    )
+      
+}  
+export default J_Head;
